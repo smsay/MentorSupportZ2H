@@ -15,6 +15,7 @@ public class RefactoredThiefFoxV7 {
             isSuspect(fox);
         }
 
+
     }
 
     public static void isSuspect(FoxConstructor fox){

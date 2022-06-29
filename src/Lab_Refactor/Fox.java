@@ -14,4 +14,5 @@ public class Fox {
         this.coatColor = coatColor;
         this.bagCount = bagCount;
     }
+
 }

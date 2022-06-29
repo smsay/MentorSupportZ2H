@@ -2,7 +2,7 @@ package Lab_Debug;
 
 import java.util.Scanner;
 
-public class PizzaApp {
+public class PizzaAppCorrect {
 
     public static void main(String[] args) {
 
@@ -81,22 +81,3 @@ public class PizzaApp {
 
     }
 }
-
-
-
-/*
-    - Bug is in Line 39 -> break is replaced with continue;
-    - BUG Description -> When user enters true credentials and logs in -> Programme continues to ask enter email again and again...
- */
-/*
-    - Bug is in Line 67 -> 'return false' is replaced with 'return true';
-    - BUG Description -> When user enters NEGATIVE credentials and tries to log in "Missing (.) dot in email OR @ comes after ."
-                      -> Programme doesnt validate EMAIL as expected
-                      -> For example mike@gmailcom returns VALID, mike.gmail@com also returns VALID by mistake...
- */
-/*
-    - Bug is in Line 78 -> 'gmail' replaced with 'gail' -> TYPO
-    - BUG Description -> When user enters POSITIVE credentials and tries to log in,
-                      -> Programme doesn't validate EMAIL as expected because of TYPO in Line 83 -> gail instead of gmail...
-                      -> mike@gmailcom is true but gives error
- */
