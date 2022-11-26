@@ -7,8 +7,6 @@ public class Circle {
     //decide the type of your variables (static or instance)
 
 
-
-
     //create default and parameterized constructors
     //default constructor should increase the number of object when a new object created
 
